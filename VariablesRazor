@@ -1,0 +1,14 @@
+<h1>Variable</h1>
+
+@{ 
+    var heading = "Using Variable";
+    string msg = "This is Variable string";
+    int a = 105;
+    DateTime today = DateTime.Now;
+
+
+    <p>@heading</p>
+    <p>@msg</p>
+    <p>@a</p>
+    <p>@today</p>
+  }
