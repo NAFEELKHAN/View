@@ -1,0 +1,4 @@
+
+<p><em>Viewdata Result:</em>@ViewData["Message"]</p>
+<p><em>Viewbag Result:</em>@ViewBag.Message</p>
+<p><em>Tempdata Result:</em>@TempData["Message"]</p>
