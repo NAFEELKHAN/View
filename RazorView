@@ -1,0 +1,12 @@
+<h1>About</h1>
+
+<div class="text-center">
+   @{
+       var products =new string[]{"LED","LCD","TV" };
+    } 
+</div>
+<ul>
+    @foreach (var product in products) { 
+    <li>This is @product</li>
+    }
+</ul>
