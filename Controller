@@ -1,0 +1,3 @@
+ ViewData["Message"] = "Access through Viewdata";
+ ViewBag.Message = "Access through Viewbag";
+ TempData["Message"] = "Access through Tempdata";
